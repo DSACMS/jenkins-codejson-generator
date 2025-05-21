@@ -19,49 +19,60 @@ def main():
         sys.exit(1)
 
     baseline_code_json = {
+    "name": "",
+    "description": "",
+    "longDescription": "",
+    "status": "",
+    "permissions": {
+        "license": [
+            {
+                "name": "",
+                "URL": "",
+            },
+        ],
+        "usageType": "",
+        "exemptionText": "",
+    },
+    "organization": "",
+    "repositoryURL": "",
+    "projectURL": "",
+    "repositoryHost": "github",
+    "repositoryVisibility": "",
+    "vcs": "git",
+    "laborHours": 0,
+    "reuseFrequency": {
+        "forks": 0,
+        "clones": 0,
+    },
+    "platforms": [],
+    "categories": [],
+    "softwareType": "",
+    "languages": [],
+    "maintenance": "",
+    "contractNumber": "",
+    "date": {
+        "created": "",
+        "lastModified": "",
+        "metaDataLastUpdated": "",
+    },
+    "tags": [],
+    "contact": {
+        "email": "",
         "name": "",
-        "description": "",
-        "longDescription": "",
-        "status": "",
-        "permissions": {
-            "license": [
-                {
-                    "name": "",
-                    "URL": ""
-                }
-            ],
-            "usageType": "",
-            "exemptionText": ""
-        },
-        "organization": "",
-        "repositoryURL": "",
-        "vcs": "git",
-        "laborHours": 0,
-        "platforms": [],
-        "categories": [],
-        "softwareType": "",
-        "languages": [],
-        "maintenance": "",
-        "date": {
-            "created": "",
-            "lastModified": "",
-            "metaDataLastUpdated": ""
-        },
-        "tags": [],
-        "contact": {
-            "email": "",
-            "name": ""
-        },
-        "localisation": False,
-        "repositoryType": "",
-        "userInput": False,
-        "fismaLevel": "",
-        "group": "",
-        "subsetInHealthcare": [],
-        "userType": [],
-        "repositoryHost": "github",
-        "maturityModelTier": 0
-    }
+    },
+    "feedbackMechanisms": [],
+    "localisation": False,
+    "repositoryType": "",
+    "userInput": False,
+    "fismaLevel": "",
+    "group": "",
+    "projects": [],
+    "systems": [],
+    "upstream": "",
+    "subsetInHealthcare": [],
+    "userType": [],
+    "maturityModelTier": 0,
+}
 
     # Enterprise Client
     # github_client = Github(base_url = "https://github.cms.gov/api/v3", login_or_token = github_token)

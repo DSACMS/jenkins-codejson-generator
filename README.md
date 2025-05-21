@@ -1,1 +1,1 @@
-# jenkins-codejson-generator
+# automated-codejson-generator
